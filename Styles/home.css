@@ -133,7 +133,7 @@ section button:hover {
   padding: 25px 35px;
   transition: 0.5s;
   margin-top: 30px;
-  margin-bottom: 53px;
+  margin-bottom: 65px;
 }
 
 .category nav a:hover {
@@ -210,4 +210,5 @@ footer {
   footer {
     font-size: 13px;
   }
+
 }

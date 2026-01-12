@@ -183,8 +183,13 @@ footer {
 }
 
 @media (max-width: 500px){
+  .left-section,
+  .right-section {
+    font-size: 15px;
+    margin-left: 7px;
+  }
   .sidebar{
-    width: 100px;
+    width: 110px;
   }
   .sidebar a{
     font-size: 15px;
@@ -217,9 +222,12 @@ footer {
     margin: 2px 0;
   }
 
-  h2 {
-    font-size: 30px;
-  }
+    h2 {
+      font-size: 20px;
+      margin-left: 95px;
+      margin-top: 60px;
+      text-align: center;
+    }
 
   h3 {
     font-size: 14px;
@@ -239,7 +247,7 @@ footer {
 
 @media (max-width: 420px) {
   .right-section{
-    font-size: 15px;
+    font-size: 12px;
   }
   .grid {
     grid-template-columns: 1fr;
@@ -257,15 +265,13 @@ footer {
 
   h2 {
     font-size: 20px;
-    margin-left: 80px;
-    margin-top: 20px;
-
+    margin-left: 95px;
+    margin-top: 60px;
     text-align: center;
   }
 
   .image-container {
     height: 180px;
-    /* Slightly shorter height for phone screens */
   }
 }
 

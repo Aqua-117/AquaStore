@@ -47,6 +47,10 @@ a {
   text-decoration: none;
 }
 
+li{
+  list-style-type: none;
+}
+
 .right-section a:hover {
   text-decoration: underline;
 }
@@ -128,6 +132,8 @@ section button:hover {
   background-color: rgb(36, 36, 36);
   padding: 25px 35px;
   transition: 0.5s;
+  margin-top: 30px;
+  margin-bottom: 53px;
 }
 
 .category nav a:hover {

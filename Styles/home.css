@@ -211,3 +211,8 @@ footer {
     font-size: 13px;
   }
 }
+@media (max-width: 420px) {
+  .right-section {
+    font-size: 12px;
+  }
+}

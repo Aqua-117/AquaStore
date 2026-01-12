@@ -171,3 +171,9 @@ nav a:hover {
 .stats p {
   color: white;
 }
+
+@media (max-width: 420px) {
+  .right-section {
+    font-size: 12px;
+  }
+}
